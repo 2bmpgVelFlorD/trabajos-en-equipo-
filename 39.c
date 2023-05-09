@@ -5,9 +5,12 @@ int main(int argc, char const *argv[])
 printf("0-4");scanf("%i",&num);
 if (num==0){
 	printf("cero")
-}else{
+}
+    else{
 		 if (num==1){
 		 	printf("uno");
+		 }
+{
 		 }
 	}
 	

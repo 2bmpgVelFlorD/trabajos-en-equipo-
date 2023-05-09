@@ -13,11 +13,13 @@ if (num==0){
 }
 		 {
 		 	if (num==2){
-		 		printf("dos")
+		 		printf("dos");
 		 	}
 }
 	{
-		if (num==3)
+		if (num==3){
+			printf("tres");
+		}
 	}
 	
 	return 0;

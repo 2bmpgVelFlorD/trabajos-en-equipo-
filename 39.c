@@ -10,8 +10,14 @@ if (num==0){
 		 if (num==1){
 		 	printf("uno");
 		 }
-{
-		 }
+}
+		 {
+		 	if (num==2){
+		 		printf("dos")
+		 	}
+}
+	{
+		if (num==3)
 	}
 	
 	return 0;

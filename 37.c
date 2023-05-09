@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	/* code */
+	int numero;
+	printf("presiona el numero 1");scanf("%i",numero);
 	return 0;
 }

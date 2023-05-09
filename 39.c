@@ -4,7 +4,7 @@ int main(int argc, char const *argv[])
 { int num;
 printf("0-4");scanf("%i",&num);
 if (num==0){
-	printf("cero")
+	printf("cero");
 }
     else{
 		 if (num==1){
@@ -19,6 +19,11 @@ if (num==0){
 	{
 		if (num==3){
 			printf("tres");
+		}
+	}
+	{
+		if (num==4){
+			printf("cuatro");
 		}
 	}
 	

@@ -8,7 +8,8 @@ int main(int argc, char const *argv[])
 	case 1:printf("uno");break;
 	case 2:printf("dos");break;
 	case 3:printf("tres");break;
-	case 4:printf("cuatro");
+	case 4:printf("cuatro");break;
+	default
 	}
 	return 0;
 }

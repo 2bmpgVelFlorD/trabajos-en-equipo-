@@ -4,6 +4,9 @@ int main(int argc, char const *argv[])
 {
 	int num;
 	printf("Digite un numero del 1-4");scanf("%i",num);
-	switch
+	switch (num){
+	case 1:
+		
+	}
 	return 0;
 }

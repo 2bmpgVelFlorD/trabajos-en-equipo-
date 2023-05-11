@@ -7,6 +7,10 @@ cout << "Ingrese un numero" << endl;
 cin >> num1;
 cout << "Ingrese otro numero" << endl;
 cin >> num2;
-cout << "E"
+cout << "El resultado es:" << endl;
+suma=num1+num2;
+cout << suma << endl;
+return 0;
 
 
+}

@@ -1,3 +1,5 @@
 #include<stdio.h>
 int main() {
 int num, i;
+printf("ingrese un numero para imprimir en su tabla");
+scanf("%d", &num);

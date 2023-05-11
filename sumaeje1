@@ -4,3 +4,7 @@ float num1;
 float num2;
 float suma;
 cout << "Ingrese un numero" << endl;
+cin >> num1;
+cout << "Ingrese otro numero" << endl;
+
+

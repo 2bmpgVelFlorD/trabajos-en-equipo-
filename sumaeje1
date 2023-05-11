@@ -1,4 +1,6 @@
 #inlude <stdio.h>
 int main () {
-float num1
-float num2
+float num1;
+float num2;
+float suma;
+cout << "Ingrese un numero" << endl;

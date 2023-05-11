@@ -7,5 +7,7 @@ int main(){
   d0{
     printf("ingresa la calf\n");
     
-    scanf(
+    scanf("%s",c);
+    if(c<5 || c==5)(
+      reprobados=reprobados+1
   

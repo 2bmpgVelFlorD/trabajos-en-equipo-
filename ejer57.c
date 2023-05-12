@@ -13,11 +13,15 @@ int main(){
     {
     x=x+1
   }while (x!=40);
-      printf("%.1f/%.1f\n",a,b);
-      b= b+1;
-   }
-   b=0;
-   a=a+1;
+      r2=100/x*reprobados;
+      printf("tus alumnos reprobados son el%f\n",r2);
+      return 0
+}
+      
+      
+   
+  
+
 
       
   

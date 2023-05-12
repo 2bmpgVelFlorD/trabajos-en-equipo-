@@ -5,6 +5,14 @@ int main(){
   float x;
   float z;
   for (z=1;z<=10;z+=1){
-    p1= pow(z,z);
+    p1 =  pow ( z , z );
+    X      =     X   +  p1;
+    printf("%f\n",p1);
+  }
+  printf("la suma de los cuadrados es%f\n",x);
+  return 0
+}
+
+        
     
        

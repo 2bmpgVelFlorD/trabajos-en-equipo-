@@ -13,4 +13,11 @@ int main(){
     {
     x=x+1
   }while (x!=40);
+      printf("%.1f/%.1f\n",a,b);
+      b= b+1;
+   }
+   b=0;
+   a=a+1;
+
+      
   

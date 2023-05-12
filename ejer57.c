@@ -10,4 +10,7 @@ int main(){
     scanf("%s",c);
     if(c<5 || c==5)(
       reprobados=reprobados+1
+    {
+    x=x+1
+  }while (x!=40);
   

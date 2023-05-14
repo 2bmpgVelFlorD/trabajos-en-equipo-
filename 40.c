@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	conn=0;
 	do{
 		num=(num/10);
-		conn = ;
+		conn = conn+1;
 	} while (num!=0);
 	printf("%i",conn);
 	return 0;

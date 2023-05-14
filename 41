@@ -1,2 +1,7 @@
 /*KEVIN RICARDO 2BMPG*/
 #include <stdio.h>
+int main(int argc, char const *argv[])
+{
+	float sbruto,imss,vales,fnh,sneto;int num;
+	return 0;
+}

@@ -6,7 +6,8 @@ int main(int argc, char const *argv[])
 	printf("ingresa el sueldo bruto");scanf("%f",&sbruto);
 	printf("que quieres hacer");scanf("%i",&num);
 	switch (num);{
-		
+	case 1:
+	case 2:
 	}
 	return 0;
 }

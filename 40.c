@@ -4,7 +4,7 @@
 int main(int argc, char const *argv[])
 {
 	int conn,num;
-	printf("ingresa un numero");scanf("i",&num);
+	printf("ingresa un numero");scanf("%i",&num);
 	conn=0;
 	do{
 		num=(num/10);

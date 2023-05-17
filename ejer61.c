@@ -7,7 +7,7 @@ intmain(){
   printf("ingresa el num, para pasar factorial\n");
   scanf("%s",n);
   variable=1;
-  while(){
+  while(x!=n){
     x=x+1;
     variable=variable*x;
     factorial=variable*x;

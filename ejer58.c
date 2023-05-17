@@ -12,3 +12,9 @@ intmain(){
   b=1;
   while(x!=n){
     printf("%f\n", a);
+    suma=a+b==figonacci;
+    a=b;
+    x=x+1;
+  }
+  return 0;
+}

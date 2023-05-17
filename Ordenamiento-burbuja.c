@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 	int i,j;
 	printf("lista desordenada: \n");
 
-
+for (i=0;)
 
 
 

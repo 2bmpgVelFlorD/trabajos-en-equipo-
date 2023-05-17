@@ -12,11 +12,28 @@ intmain(){
   printf("indefinido=(10)\n");
   scanf("%i",&rpt);
   switch(rpt){
-      case3:
+      case 3:
           while(x!=4 || n!=num){
-            printf("solo tienes 3 oportunidades\n")
-            
+            printf("solo tienes 3 oportunidades\n");
+            scanf("%i",&n);
+            if(n==num){
+              printf("felicidades adivinaste\n");
+            }
+            if(n<num){
+              printf("el num es mayor de %i\n",n);
+            }
+            if(n>num){
+              printf("el numero es menor de %i\n",n);
+            }
+            x=x+1;    
           }
+          break;
+    case 5:
+      while(x!=6 || n!=num){
+        printf("solo tienes 5 oportunidades\n");
+        scanf("%i"&n);
+        
+      }
       
       
   }

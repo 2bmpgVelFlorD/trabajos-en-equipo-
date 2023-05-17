@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
 	printf("lista desordenada: \n");
 
 for (i=0;i<TAM;i++)
+	printf("%3d")
 
 
 

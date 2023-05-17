@@ -11,7 +11,7 @@ for (i=0;i<TAM;i++)
 	printf("%3d",lista[i]);
 for (i=1;i<TAM;i++)
 {
-	/* code */
+	for (j=0;j<TAM-1;j++)
 }
 
 

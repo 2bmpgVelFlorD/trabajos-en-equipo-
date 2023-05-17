@@ -11,7 +11,7 @@ intmain(){
   printf("INGRESA TASA DE INTERESES\n");
   scanf("%f",&i);
   resultado=(p*i*t)/100;
-  printf("el interes%fmeses es de%f\n", t, resultado);
+  printf("el interes% fmeses es de%f\n", t, resultado);
   return 0;
 }
       

@@ -12,6 +12,9 @@ for (i=0;i<TAM;i++)
 for (i=1;i<TAM;i++)
 {
 	for (j=0;j<TAM-1;j++)
+	{
+		if (lista[j] > ) 
+	}
 }
 
 

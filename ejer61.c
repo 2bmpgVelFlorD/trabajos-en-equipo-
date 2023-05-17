@@ -11,6 +11,11 @@ intmain(){
     x=x+1;
     variable=variable*x;
     factorial=variable*x;
-    printf("%f\n",x);;
+    printf("%f\n",x);
+    printf("*\n");
+           
   }
+  printf("//\n");
+  printf("variable\n");
+  return 0;
 }

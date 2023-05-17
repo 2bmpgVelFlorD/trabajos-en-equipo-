@@ -22,7 +22,7 @@ for (i=1;i<TAM;i++)
 	}
 }
 printf("\nLos valores ordenados son:\n");
-for (i=0,i<TAM;i++)
+for (i=0;i<TAM;i++)
 printf("%3d",lista[i]);
 	return 0;
 }

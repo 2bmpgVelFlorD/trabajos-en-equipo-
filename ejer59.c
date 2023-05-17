@@ -10,10 +10,11 @@ intmain(){
   x=x+1;
   a=x;
   if (n%a==0){
+   printf("%f\n", a);
   }
  
  } 
- 
+ return 0;
  
     
 

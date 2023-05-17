@@ -13,7 +13,10 @@ for (i=1;i<TAM;i++)
 {
 	for (j=0;j<TAM-1;j++)
 	{
-		if (lista[j] > ) 
+		if (lista[j] > lista[j+1])
+		{
+			
+		} 
 	}
 }
 

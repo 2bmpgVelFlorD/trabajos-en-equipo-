@@ -21,6 +21,7 @@ for (i=1;i<TAM;i++)
 		} 
 	}
 }
+printf("\nLos valores ordenados son:\n");
 
 
 

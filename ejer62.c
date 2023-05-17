@@ -27,15 +27,41 @@ intmain(){
             }
             x=x+1;    
           }
-          break;
-    case 5:
-      while(x!=6 || n!=num){
-        printf("solo tienes 5 oportunidades\n");
-        scanf("%i"&n);
+        break;
+      case 5:
+          while(x!=6 || n!=num){
+            printf("solo tienes 5  oportunidades\n");
+            scanf("%i",&n);
+            if(n==num){
+              printf("felicidades adivinaste\n");
+            }
+            if(n<num){
+              printf("el num es mayor de %i\n",n);
+            }
+            if(n>num){
+              printf("el numero es menor de %i\n",n);
+            }
+            x=x+1;
+          }
+        break;
+      case 10:
+          while(n!=num){
+            printf("solo tienes 5 oportunidades\n");
+            scanf("%i"&n);
+            if(n==num){
+              printf("felicidades adivinaste\n");
+            }
+            if(n<num){
+              printf("el num es mayor de %i\n",n);
+            }
+            if(n>num){
+              printf("el numero es menor de %i\n",n);
+            }
+            x=x+1;    
         
       }
-      
+      break;
       
   }
-
+return 0;
 }

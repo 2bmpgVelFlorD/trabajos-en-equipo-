@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 
 for (i=0;i<TAM;i++)
 	printf("%3d",lista[i]);
-for ()
+for (i=1;i<TAM;i++)
 {
 	/* code */
 }

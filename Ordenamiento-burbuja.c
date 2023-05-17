@@ -15,7 +15,8 @@ for (i=1;i<TAM;i++)
 	{
 		if (lista[j] > lista[j+1])
 		{
-			temp=lista[j]
+			temp=lista[j];
+			lista[j]=lista[j++]
 		} 
 	}
 }

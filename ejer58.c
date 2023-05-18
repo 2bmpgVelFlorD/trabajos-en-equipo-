@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
-intmain(){
+int main(){
   float a;
   float b;
   float figonacci;

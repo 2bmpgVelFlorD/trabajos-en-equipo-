@@ -1,5 +1,5 @@
 #include<stdio.h>
-intmain(){
+int main(){
  float a;
  float n;
  float x;

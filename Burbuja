@@ -5,3 +5,7 @@ main(){
     for(int i=;i<10;i++){
     for (int j=0;j<10;j++){
       if(vector[j]>vector[j+1]){
+      }
+    }
+  }
+}

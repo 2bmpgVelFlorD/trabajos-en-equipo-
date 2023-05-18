@@ -1,5 +1,5 @@
 #include<stdio.h>
-intmain(){
+int main(){
   float factorial;
   float n;
   float variable;

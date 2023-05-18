@@ -1,2 +1,5 @@
 # include<stdio.h>
 main(){
+  int vector[10]={10,2,3,35,4,7,9,11,44,6};
+  int aux;
+  

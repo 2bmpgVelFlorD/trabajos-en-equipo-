@@ -1,5 +1,5 @@
 #include<stdio.h>
-intmain(){
+int main(){
     float acom;
     float multiplicacion;
     float x;

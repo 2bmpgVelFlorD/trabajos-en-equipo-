@@ -1,5 +1,5 @@
 #include<stdio.h>
-intmain(){
+int main(){
   float i;
   float p;
   float resultado;

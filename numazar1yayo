@@ -2,4 +2,6 @@
 int main () {
 int numerosecreto;
 int x;
+numerosecreto = 8;
+printf("ingresa un numero");
 

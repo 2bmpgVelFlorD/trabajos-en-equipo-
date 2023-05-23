@@ -11,5 +11,7 @@ int main(int argc, char const *argv[])
                 printf("¿Desea ingresar más dinero? (S/N): ");
         scanf(" %c", &opcion);
             } while (opcion == 'S' || opcion == 's');
+             printf("La suma total de dinero es: %.2f\n", suma);
+
 	return 0;
 }

@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
-	i
+	int a;
+	
 	return 0;
 }

@@ -17,5 +17,7 @@ int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
          INFERIOR, SUPERIOR, INTENTOS_MAXIMOS);
           while (1) {
     intentos++;
+     printf("Escribe el número que crees que elegí: ");
+    scanf("%d", &respuesta);
  
 

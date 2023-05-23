@@ -23,3 +23,5 @@ int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
     printf("Correcto. El número que seleccioné fue %d y lo adivinaste en %d "
      "intento(s)",
              secreto, intentos);
+      break;
+    } else if (respuesta < secreto) {

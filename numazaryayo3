@@ -25,3 +25,6 @@ int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
              secreto, intentos);
       break;
     } else if (respuesta < secreto) {
+        printf(
+          "Error, pero te doy una pista: el número que elegí es mayor que %d\n",
+          respuesta);

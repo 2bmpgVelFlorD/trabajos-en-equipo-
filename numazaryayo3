@@ -15,5 +15,7 @@ int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
  printf("He seleccionado un número al azar entre %d y %d, tu tarea es "
          "adivinarlo en máximo %d intentos\n",
          INFERIOR, SUPERIOR, INTENTOS_MAXIMOS);
+          while (1) {
+    intentos++;
  
 

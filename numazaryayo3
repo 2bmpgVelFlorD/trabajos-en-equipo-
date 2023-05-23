@@ -35,4 +35,7 @@ int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
   }
   if (intentos >= INTENTOS_MAXIMOS) {
   printf("Perdiste. El número que elegí fue %d", secreto);
-      break;
+  break;
+    }
+  }
+}

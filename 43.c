@@ -8,3 +8,4 @@ int main(int argc, char const *argv[/*29/04/23*/])
 		case 1: imss=sbruto*0.08;printf("imss $%f",imss);break;
 			case 2: vales=sbruto*0.10;printf("vales $%.2f",vales);break;
 				case 3: fnh=sbruto*0.13;printf("fondo de ahorro $%.2f",fnh);break;
+					case 4: sneto=sbruto-(sbruto*0.08)-(sbruto*0.10)+(sbruto*0.13);printf("sueldo neto $%.2f",sneto);break;

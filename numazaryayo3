@@ -10,5 +10,6 @@ int aleatorio_en_rango(int minimo, int maximo);
 int main() {
 srand(getpid());
 int secreto = aleatorio_en_rango(INFERIOR, SUPERIOR);
-
+ int respuesta, intentos = 0;
+ 
 

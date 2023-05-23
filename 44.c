@@ -8,5 +8,8 @@ int main(int argc, char const *argv[])
         scanf("%f", &cantidad);
 
         suma += cantidad;
+                printf("¿Desea ingresar más dinero? (S/N): ");
+        scanf(" %c", &opcion);
+            } while (opcion == 'S' || opcion == 's');
 	return 0;
 }

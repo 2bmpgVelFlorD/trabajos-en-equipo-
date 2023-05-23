@@ -5,3 +5,10 @@ int x;
 numerosecreto = 8;
 printf("ingresa un numero");
 scanf("%i",&x);
+if (x==numerosecreto){
+printf("el numero es correcto");
+}else {
+printf("el numero es incorrecto");;
+}
+return 0;
+}

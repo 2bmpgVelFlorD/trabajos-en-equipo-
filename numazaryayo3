@@ -5,3 +5,7 @@
 #define INTENTOS_MAXIMOS 2
 #define INFERIOR 1 
 #define SUPERIOR 5
+int aleatorio_en_rango(int minimo, int maximo);
+
+int main() {
+

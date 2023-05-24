@@ -19,3 +19,9 @@ int main() {
             intentos++;
         }
     }
+      
+    if (intentos == MAX_INTENTOS) {
+        printf("Demasiados intentos fallidos. Saliendo del programa.\n");
+        exit(0);
+    }
+    int opcion;

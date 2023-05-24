@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 	do{
 		printf("ingrese su moneda");scanf("%f",&m);
 			s+=m;
-			printf("otra moneda");scanf("%i",&o);
+			printf("otra moneda si 0 no 1 ");scanf("%i",&o);
 
 	}while(o==0);
 	printf("total %.2f",s);

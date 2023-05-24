@@ -1,6 +1,4 @@
-#include<>
-#include<>
-#define MAX_STRLEN 256
+
 edadmujeres==0;
 edadhombres==0;
 cantidadmujeres==0;

@@ -9,7 +9,7 @@ int main() {
     int intentos = 0,r,sacr,abonar,tca;
     
     while (intentos < MAX_INTENTOS) {
-        printf("Ingrese la contraseña: ");
+        printf("Ingrese la contraseña:(1234) ");
         scanf("%s", contrasena);
           if (strcmp(contrasena, CONTRASENA_CORRECTA) == 0) {
             printf("Contraseña correcta. Acceso concedido.\n");
@@ -44,7 +44,7 @@ int main() {
             case 3:
                 printf("Saliendo del programa...\n");
                 break;
-                           
+
             default:
                 printf("Opción inválida. Intente nuevamente.\n");
                 break;

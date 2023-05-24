@@ -32,3 +32,4 @@ int main() {
         printf("3. Salir\n");
         printf("Ingrese una opción: ");
         scanf("%d", &opcion);
+        

@@ -19,9 +19,16 @@ int main() {
             intentos++;
         }
     }
-      
+
     if (intentos == MAX_INTENTOS) {
         printf("Demasiados intentos fallidos. Saliendo del programa.\n");
         exit(0);
     }
     int opcion;
+       do {
+        printf("\n----- MENÚ -----\n");
+        printf("1. Retirar saldo\n");
+        printf("2. Abonar saldo\n");
+        printf("3. Salir\n");
+        printf("Ingrese una opción: ");
+        scanf("%d", &opcion);

@@ -5,8 +5,10 @@ int main(int argc, char const *argv[])
 	int o;
 	do{
 		printf("ingrese su moneda");scanf("%i",&m);
-		printf("otra moneda");scanf("%i",&o);
-		s+=m
-	}
+			s+=m;
+			printf("otra moneda");scanf("%i",&o);
+
+	}while(o==0);
+	printf("total %f")
 	return 0;
 }

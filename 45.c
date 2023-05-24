@@ -44,3 +44,12 @@ int main() {
             case 3:
                 printf("Saliendo del programa...\n");
                 break;
+                           
+            default:
+                printf("Opción inválida. Intente nuevamente.\n");
+                break;
+        }
+    } while (opcion != 3);
+    
+    return 0;
+}

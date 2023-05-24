@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	float m,s;
+	float m,s=0;
 	int o;
 	do{
-		printf("ingrese su moneda");scanf("%i",&m);
+		printf("ingrese su moneda");scanf("%f",&m);
 			s+=m;
 			printf("otra moneda");scanf("%i",&o);
 

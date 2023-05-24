@@ -1,4 +1,5 @@
-
+#include<stdio.h>
+int main(){
 edadmujeres==0;
 edadhombres==0;
 cantidadmujeres==0;

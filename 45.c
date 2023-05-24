@@ -32,4 +32,9 @@ int main() {
         printf("3. Salir\n");
         printf("Ingrese una opción: ");
         scanf("%d", &opcion);
-        
+         switch (opcion) {
+            case 1:
+        printf("retirar saldo");scanf("%i",&r);
+        sacr=saldo-r;
+        printf("saldo actual %i",sacr);break;            
+            case 2:

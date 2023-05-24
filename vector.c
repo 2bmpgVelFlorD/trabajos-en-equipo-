@@ -30,4 +30,4 @@ int main() {
     return 0;
 }
 /*en caso de no querer que ingresen personas y materias a un n. especifico solo lo defines #define PERSONAS 5 #define MATERIAS 5
-y borras las lineas 3,4,5*/
+y borras las lineas 3-7*/

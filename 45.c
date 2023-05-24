@@ -38,3 +38,9 @@ int main() {
         sacr=saldo-r;
         printf("saldo actual %i",sacr);break;            
             case 2:
+            	printf("cuanto dinero deseas abonar ");scanf("%i",&abonar);
+        tca=abonar+saldo;
+        printf("saldo actual %i",tca);break;
+            case 3:
+                printf("Saliendo del programa...\n");
+                break;

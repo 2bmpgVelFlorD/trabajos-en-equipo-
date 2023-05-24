@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	float m;
+	float m,s;
 	int o;
 	do{
 		printf("ingrese su moneda");scanf("%i",&m);
@@ -9,6 +9,6 @@ int main(int argc, char const *argv[])
 			printf("otra moneda");scanf("%i",&o);
 
 	}while(o==0);
-	printf("total %f")
+	printf("total %.2f",s);
 	return 0;
 }

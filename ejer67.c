@@ -1,15 +1,17 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
-  int a,b,c,n;
-  printf("ingrese un numero\n");
-  scanf("%i",&n);
-  a<=0;
-  b<=1;
-  for(i=1;i<=10){
-    printf("%i",a);
-    c<=a+b;
-    a<=b;
-    b<=c;
+  int n,x;
+  printf("ingrese un num cualquiera\n");
+  scanf("%i";&n);
+  x=1;
+  
+  while(x=n,x<n){
+    if(n=1,double;x=0){
+      printf("%i\n",x);
+    }
+    x=x+1;
+  
   }
 return 0;
     

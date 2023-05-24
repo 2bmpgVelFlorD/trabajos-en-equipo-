@@ -3,7 +3,7 @@ int main(){
   int t,i;
   int num[3][4];
   for(t=0;t<3;++t){
-    for(i=o;i<3;++i){
+    for(i=0;i<3;++i){
       num[t][i]=(t*4)+i+1;
     }
   }

@@ -11,3 +11,11 @@ int main() {
     while (intentos < MAX_INTENTOS) {
         printf("Ingrese la contraseña: ");
         scanf("%s", contrasena);
+          if (strcmp(contrasena, CONTRASENA_CORRECTA) == 0) {
+            printf("Contraseña correcta. Acceso concedido.\n");
+            break;
+        } else {
+            printf("Contraseña incorrecta. Intentos restantes: %d\n", MAX_INTENTOS - intentos - 1);
+            intentos++;
+        }
+    }

@@ -25,8 +25,8 @@ int main(){
 		{
 			int C;
         	C=124;
-            B=457;
-            A=788;
+                B=457;
+                A=788;
 	        Q=3;
         	resultado3=A+B+Q+C;
         	printf("r3:%d\n",resultado3);

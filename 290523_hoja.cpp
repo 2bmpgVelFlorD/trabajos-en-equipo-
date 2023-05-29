@@ -1,19 +1,16 @@
 #include<stdio.h>
-
-int main(){
-
-	int cont;
-
-	do
-
+int main()
+{
+	for (int i=0; i<30; i++)
 	{
-
-		cont++;
-
-		printf("1234567899876543211234567899876543211234");
-
-	}while(cont==30);
-
+		printf("abcdefghijklmnñopqrstuvwxyz\n");
+	}
 	return 0;
+}
 
-} 
+
+
+
+
+
+

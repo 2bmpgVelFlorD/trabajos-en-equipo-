@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	const int luna=238857;
+	float luna_kilo;
+	printf("distancia a la luna en %d millas\n",luna);
+	luna_kilo=luna*1.069; /*una millaes igual a 1.609 kilometros*/
+	printf("en kilometros es %.2fkm. \n", luna_kilo);
+	return 0;
+}

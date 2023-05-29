@@ -1,0 +1,16 @@
+#include<stdio.h>
+int minumero;
+int main(){
+	int j;
+	printf("¿cual es su numero favorito?");
+	scanf("%d", &minumero);
+	int numerodeinteracciones=12;
+	int i;
+	for(i=2;i<numerodeinteracciones;i=i+2){
+		printf("interaccion numero: %d\n",i);
+	}
+	printf("cuanto vale aqui la variable i: %d\n",i);
+	printf ("cuanto vale aqui la variable minumero: %d\n:",minumero);
+	printf ("cuanto vale aqui la variable numdeinteracciones: %d\n",numerodeinteracciones);
+
+}

@@ -14,15 +14,16 @@ int main(){
 		resultado2=a+q+b;
 		printf("r1a:%d\n",resultado1);
 		printf("r1b:%d\n",resultado2);
-	}
+	{
+	
 		
-		{
+		
 		int c;
 		c=124;b=457;a=788;q=3;
 		resultado3=a+b+q+c;
 		printf("r3:%d\n",resultado3);
 		
 	}
-	
+}
 	return 0;
 }

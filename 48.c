@@ -3,7 +3,7 @@ int main(int argc, char const *argv[])
 {
 	char s,h;
 	int e,e2,m,prom,prom2,p;
-	do{
+	while (p-16){
 		printf("sexo y edad");scanf("%c %c",&s,&e);
 	if (s=m){
 		++m;
@@ -17,6 +17,6 @@ int main(int argc, char const *argv[])
 	}
 }
 	++p;
-}while(p=15);
+}
 	return 0;
 }

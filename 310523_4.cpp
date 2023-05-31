@@ -1,5 +1,5 @@
 /*310523
-diego eduardo
+kevin ricardo
 titulo; */
 #include<stdio.h>
 int main(){

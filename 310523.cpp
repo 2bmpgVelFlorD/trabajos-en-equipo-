@@ -1,3 +1,7 @@
+/*fecha 31/05/23
+yahir sanchez 
+titulo imprime el tamaño de valores de coma flotante y double */
+
 #include<stdio.h>
 int main()
 {

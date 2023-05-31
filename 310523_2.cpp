@@ -1,3 +1,6 @@
+/*310523
+Diego Eduardo Lopez Uribe
+titulo operador de asignacion=(igual)*/
 #include<stdio.h>
 int main(){
 	int a,b,c;

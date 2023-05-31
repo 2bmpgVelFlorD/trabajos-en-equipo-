@@ -1,3 +1,7 @@
+/*programa numero 03
+titulo: test de operadores"
+fecha 31 de mayo del 2023
+nombre:Diego Velazquez Flores*/
 #include<stdio.h>
 int main()
 {

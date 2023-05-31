@@ -3,9 +3,9 @@ int main(int argc, char const *argv[])
 {
 	int n;
 	printf("dime un numero");scanf("%I",n);
-	for (int i = 0; i < count; ++i)
+	for (int x = 0; n < count; ++i)
 	{
-		/* code */
+	
 	}
 	return 0;
 }

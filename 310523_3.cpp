@@ -1,5 +1,5 @@
 /*310523
-Diego Eduardo Lopez Uribe
+kevin ricardo
 titulo;test de operadore ++ y -- */
 #include<stdio.h>
 int main(){

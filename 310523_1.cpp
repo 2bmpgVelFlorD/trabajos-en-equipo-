@@ -1,13 +1,13 @@
 /*fecha 31/05/23
-Diego Eduardo Lopez Uribe
-titulo imprime el tamaño de valores de coma flotante y double */
+kevin ricardo
+titulo imprime el tamaÃ±o de valores de coma flotante y double */
 
 #include<stdio.h>
 int main()
 {
-	printf("elo tamaño de la varable de coma flotante es %d", sizeof (float));
+	printf("elo tamaÃ±o de la varable de coma flotante es %d", sizeof (float));
 	printf("bytes\n");
-	printf("el tamaño de variable de doble presicion %d", sizeof(double));
+	printf("el tamaÃ±o de variable de doble presicion %d", sizeof(double));
 	printf("bytes\n");
 	return 0;
 }

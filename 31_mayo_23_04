@@ -1,0 +1,16 @@
+/*programa numero 04
+titulo: diferencia de operadores"
+fecha 31 de mayo del 2023
+nombre:Diego Velazquez Flores*/
+#include<stdio.h>
+int main()
+{
+	int m=00, n;
+	n= ++m;
+	printf("m= %d, n=%d\n", m,n);
+	n= ++m;
+	printf("m= %d, n=%d\n",m,n);
+	printf("m= %d\n",m++);
+	printf("m= %d\n", ++m);
+	return 0;
+}

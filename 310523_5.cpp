@@ -1,5 +1,5 @@
 /*310523
-yahir sanchez
+Yahir Sanchez
 titulo; */
 #include<stdio.h>
 

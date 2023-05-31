@@ -1,0 +1,17 @@
+/*programa numero 06
+titulo:"las sentencias de asignacion booleana
+se pueden escribir de modo que den como 
+resultado un valor de tipo int que sera 0 o 1"
+fecha 31 de mayo del 2023
+nombre:Diego Velazquez Flores*/
+#include<stdio.h>
+int main()
+{
+	int edad,mayordeedad,juvenil;
+	scanf("%i",&edad);
+	mayordeedad=(edad>18);
+	juvenil=(edad>15)&&(edad<=18);
+	printf("%i\n",mayordeedad);
+	printf("%i\n",juvenil);
+	return 0;
+}

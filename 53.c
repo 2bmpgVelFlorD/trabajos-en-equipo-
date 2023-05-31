@@ -2,7 +2,8 @@
 #include <math.h>
 int main(int argc, char const *argv[])
 {
-	int n;
-	printf("dime un numero");scanf("%f",&n);
+	float n,p;
+	printf("dime un numero y potencia");scanf("%f %f",&n,&p);
+	pow(n,p);
 	return 0;
 }

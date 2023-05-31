@@ -1,0 +1,13 @@
+/*programa numero 01
+titulo: imprime el tamaño de los valores de coma flotante y doble"
+fecha 31 de mayo del 2023
+nombre:Diego Velazquez Flores*/
+#include<stdio.h>
+int main()
+{
+    printf("año de las variables de coma flotante es:  %d",sizeof(float));
+    printf("bytes\n");
+    printf("el tamaño de lavriable es:  %d", sizeof(double));
+    printf("bytes\n");
+    return 0;
+}

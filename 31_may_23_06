@@ -1,0 +1,6 @@
+/*titulo: adivina el numero.
+nombre:Diego Velázquez flores*/
+#include<stdio.h>
+int main(){
+
+}

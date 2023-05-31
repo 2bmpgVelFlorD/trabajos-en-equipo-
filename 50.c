@@ -6,5 +6,6 @@ int main(int argc, char const *argv[])
 	printf("cuantas papas desea llevar");scanf("%f",&p);
 	printf("cuantos refrescos desea llevar");scanf("%f",&r);
 	suma=(h*2)+(r*7)+(p*9);
+	printf("el total es %.2f",suma);
 	return 0;
 }

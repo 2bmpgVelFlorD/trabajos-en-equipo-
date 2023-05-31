@@ -8,5 +8,6 @@ int main(int argc, char const *argv[])
 	scanf("%i",&num1);
 	smt=smt*num1;
 	}
+	printf("%i",smt);
 	return 0;
 }

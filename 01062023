@@ -1,0 +1,26 @@
+#include <stdio.h>
+float calculartarifa(float gasto){
+	if(gasto<1000){
+	return 1.2;
+}else if (gasto<1850){
+	return 1.8;
+}else {
+	return 2.1;
+}
+}
+int main (){
+float gasto;
+printf("ingrese el gasto de corriente electrica:");
+scanf("%f", &gasto);
+float tarifa1=calculartarifa(gasto);
+float tarifa2=calculartarifa(gasto);
+float resultado=tarifa1-tarifa2;
+if (resultado>=0){
+	printf("la diferencia entre las dos tarifas de luz es; %.2f pesos\n", resultado);
+}
+else{
+printf("error: la diferencia entre las dos tarifas es negativa.\n");
+}
+return 0;
+}
+

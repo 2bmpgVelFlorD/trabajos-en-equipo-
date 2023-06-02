@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-
+//yahir sanchez
 int main() {
     float nota;
     

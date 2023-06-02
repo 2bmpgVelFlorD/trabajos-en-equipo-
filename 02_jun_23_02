@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int num;
+
+	printf("ingrese num\n");
+	scanf("%i\n",&num);
+	if((num==0)?(printf("numero igual a 0\n")):(printf(" menor o mayor a 0\n"))){
+		
+   }
+return 0;
+	
+}

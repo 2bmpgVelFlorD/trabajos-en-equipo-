@@ -1,24 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int dividendo, divisor;
+    int cociente, residuo;
 
-    printf("Ingrese el primer número: ");
-    scanf("%d", &num1);
+    printf("Ingrese el dividendo: ");
+    scanf("%d", &dividendo);
 
-    printf("Ingrese el segundo número: ");
-    scanf("%d", &num2);
+    printf("Ingrese el divisor: ");
+    scanf("%d", &divisor);
 
-    if (num2 != 0) {
-        if (num1 % num2 == 0) {
-            printf("%d es divisible por %d\n", num1, num2);
-        } else {
-            int residuo = num1 % num2;
-            printf("%d no es divisible por %d. El residuo es %d\n", num1, num2, residuo);
-        }
-    } else {
-        printf("No se puede dividir entre cero\n");
-    }
+    cociente = dividendo / divisor;
+    residuo = dividendo % divisor;
+
+    printf("Cociente: %d\n", cociente);
+    printf("Dividendo: %d\n", dividendo);
+    printf("Divisor: %d\n", divisor);
+    printf("Residuo: %d\n", residuo);
 
     return 0;
 }
+

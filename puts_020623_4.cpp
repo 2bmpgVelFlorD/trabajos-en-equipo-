@@ -13,7 +13,7 @@ int main() {
         cociente = dividendo / divisor;
         residuo = dividendo % divisor;
 
-        puts("Resultado de la división:");
+        puts("Resultado de la divisiÃ³n:");
         puts("Cociente: ");
         printf("%d\n", cociente);
         puts("Dividendo: ");

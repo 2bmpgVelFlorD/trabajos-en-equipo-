@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//yahir sanchez
 int main() {
     int nota;
     

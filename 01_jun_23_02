@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int consumact,consumant,gastocorriente,gasto;
+    printf("consumo anterior\n");
+    scanf("%i\n",/consumant);
+    printf("consumo actual\n");
+    scanf("%i\n",/consumact);
+    gastocorriente=consumant-consumact;
+    if(consumact<consumant){
+        printf("error\n");
+    }else{
+        printf("el gasto de la corriente electrica es: %i\n", gastocorriente);
+    }
+    if(gastocorriente<1000){
+        printf("tiene que pagar %i\n",(gastocorriente*1.2));
+    }else{
+        if(gastocorriente=1000,1850){
+            printf("tiene que pagar %i\n",(gastocorriente*1.8));
+        }else{
+            if(gastocorriente>1859){
+                printf("tiene que pagar %i\n",(gastocorriente*2.1));
+            }
+        }
+    }
+    return 0;
+}

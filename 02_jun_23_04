@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int num,num2;
+	scanf("%i\n",num);
+	scanf("%i\n",num2);
+	if(num>num2){
+		printf("num mayor %i\n",num);
+	
+	}else{
+		printf("num mayor %i\n",num2);
+	}
+}

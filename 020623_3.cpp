@@ -3,10 +3,10 @@
 int main() {
     int numero1, numero2, mayor;
 
-    printf("Ingrese el primer número: ");
+    printf("Ingrese el primer nÃºmero: ");
     scanf("%d", &numero1);
 
-    printf("Ingrese el segundo número: ");
+    printf("Ingrese el segundo nÃºmero: ");
     scanf("%d", &numero2);
 
     if (numero1 > numero2) {
@@ -15,7 +15,7 @@ int main() {
         mayor = numero2;
     }
 
-    printf("El mayor número es: %d\n", mayor);
+    printf("El mayor nÃºmero es: %d\n", mayor);
 
     return 0;
 }

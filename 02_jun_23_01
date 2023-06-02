@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int calificacion;
+	scanf("%i\n",&calificacion);
+	if(calificacion<6){
+		puts("\n tas reprobado");
+	}else{
+		puts("felicidades aprobaste\n");
+		
+	}
+	return 0;
+
+}

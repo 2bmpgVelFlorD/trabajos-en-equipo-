@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main(){
+	int num,num2,residuo;
+	puts("dividendo\n");
+	scanf("%i\n",&num);
+	puts("divisor\n");
+	scanf("%i\n",&num2);
+	residuo=num%num2;
+	if(residuo=0){
+		puts("es divisible\n");
+	}
+	return 0;
+}

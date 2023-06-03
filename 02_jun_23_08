@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+int a,b,c;
+if(a>0)
+   if(b>0)++a
+    else
+       if(c>0)
+          if(a<5) ++b;
+          else
+             if(b<5) ++c;
+             else --a;
+         else if(c<5) --b;
+     else --c;
+ else
+ a=0;
+          
+return 0;
+}
+

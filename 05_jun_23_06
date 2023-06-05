@@ -1,0 +1,79 @@
+#include<stdio.h>
+int main(){
+	int vehiculo,opc,impuesto1,impuesto2,impuesto3,pago,cambio;
+	printf("ingrese el tipo de vehiculo\n");
+	printf("1)automovil particular ");
+	printf("2)autobus ");
+	printf("3)moto ");
+	scanf("%i\n",vehiculo);
+	while(opc=1){
+		switch(vehiculo){
+		case 1:   
+		   impuesto1=500;
+		   printf("impuesto a pagar de 500");
+		   scanf("%i\n",pago);
+		   if(pago=impuesto1){
+		   	printf("no se regresa ningun tipo de cambio\n");
+		   	printf("puede pasar\n");
+		   }else{
+		   	if(pago>impuesto1){
+		   	cambio=pago-impuesto1;
+		   	printf("%i se regresara cambio de:\n",cambio);
+		   	printf("puede pasar\n");
+		     }else{
+		     	if(impuesto1>pago){
+		     		printf("le falta dinero,volver a pagar?\n");
+		     		printf("1)si/2)no\n");
+		     		scanf("%i\n",opc);
+				 }
+			 }
+		   } 
+		   break;
+		case 2:
+			impuesto2=600;
+		   printf("impuesto a pagar de 600");
+		   scanf("%i\n",pago);
+		   if(pago=impuesto2){
+		   	printf("no se regresa ningun tipo de cambio\n");
+		   	printf("puede pasar\n");
+		   }else{
+		   	if(pago>impuesto2){
+		   	cambio=pago-impuesto2;
+		   	printf("%i se regresara cambio de:\n",cambio);
+		   	printf("puede pasar\n");
+		     }else{
+		     	if(impuesto2>pago){
+		     		printf("le falta dinero,volver a pagar?\n");
+		     		printf("1)si/2)no\n");
+		     		scanf("%i\n",opc);
+				 }
+			 }
+		   } 
+		   break;
+		case 3:
+			impuesto3=100;
+		   printf("impuesto a pagar de 100");
+		   scanf("%i\n",pago);
+		   if(pago=impuesto3){
+		   	printf("no se regresa ningun tipo de cambio\n");
+		   	printf("puede pasar\n");
+		   }else{
+		   	if(pago>impuesto3){
+		   	cambio=pago-impuesto3;
+		   	printf("%i se regresara cambio de:\n",cambio);
+		   	printf("puede pasar\n");
+		     }else{
+		     	if(impuesto3>pago){
+		     		printf("le falta dinero,volver a pagar?\n");
+		     		printf("1)si/2)no\n");
+		     		scanf("%i\n",opc);
+				 }
+			 }
+		   } 
+		   break;
+	default:
+		printf("automovil no valido\n");		
+	}
+}
+return 0;
+	}

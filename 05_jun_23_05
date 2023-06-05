@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+	char a,A,b,B,c,C,d,D,n,f,F;
+	printf("Ingrese la nota\n");
+	scanf("%c",&n);
+	switch(n){
+	case 'a': case 'A':
+		printf("excelente\n");
+		break;
+	case 'b': case 'B':
+		printf("Notable\n");
+		break;
+	case 'c': case 'C':
+		printf("Suficiente\n");
+		break;
+	case 'd': case 'D': case 'f': case 'F':
+		printf("No aplicable\n");
+		break;
+    default:
+    	printf("Error");
+	}
+  return 0;
+}

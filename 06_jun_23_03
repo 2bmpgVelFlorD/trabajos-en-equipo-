@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int contador = 0; //inicializo la variable//
+	while(contador<5){//prueba logica//
+		contador++;
+		printf("contador: %d\n",contador);//si es verdadero realiza el bloque de instrucciones//
+	}
+	printf("terminado.contador: %d\n", contador);
+	return 0;
+}

@@ -1,0 +1,12 @@
+/*programa num1
+titulo:comportamiento o funcionamiento de una sentencia (bucle) while
+fecha:06 junio 23
+nombre:Diego VF*/
+#include<stdio.h>
+int main(){
+	int x=0;
+	while(x<10){
+		printf("x:%d\n",x++);
+	}
+	return 0;
+}

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//yahir
 int main()
 {
     int contador=0;//inicializo la variable

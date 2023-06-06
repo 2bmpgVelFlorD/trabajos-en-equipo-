@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h //yahir
 int main(){
 	/*entrada de datos numericos,centinela-1*/
 	int const centinela=-1;

@@ -1,4 +1,4 @@
-include<stdio.h>
+include<stdio.h>//yahir
 int main (){
 	int num_de_elementos, cuenta, calorias_por_alimentos, calorias_total;
 	printf("cuantos alimentos ha comido hoy");

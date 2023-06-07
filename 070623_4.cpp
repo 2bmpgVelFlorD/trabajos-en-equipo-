@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
-{
+int main (){
 	int i;
-	for (i=0;i<10;i++) 
+	for (i=0;i<10;i++)
 	{
-		printf("Hola\n"); 
-		printf("el valor de i es de %d\n",i); 
+		printf("hola\n");
+		printf("el valor de i es de: %d\n", i);
+		
 	}
 	return 0;
 }

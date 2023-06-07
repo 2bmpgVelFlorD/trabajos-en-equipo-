@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int numdelementos,cuenta,caloriaspalim,calorias_tot;
+    printf("cuantos alimentos ha comido hoy");
+    scanf("%d",&numdelementos);
+    calorias_tot=0;
+    cuenta=1;
+    printf("introducir el num de calorias de cada uno de los\n");
+    printf("%d %s\n", numdelementos,"alimentos tomados:");
+    while(cuenta++ <= numdelementos){
+        scanf("%d",/caloriaspalim);
+        calorias_tot+=caloriaspalim;
+    }
+    printf("las calorias totales consumidas hoy son son=\n");
+    printf("%d\n",calorias_tot);
+    return 0;
+}

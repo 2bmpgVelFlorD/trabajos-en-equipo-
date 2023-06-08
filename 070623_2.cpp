@@ -10,4 +10,5 @@ int main (){
 	}	
 	media=n/6;
 	printf("%.2f",media);
+	
 }

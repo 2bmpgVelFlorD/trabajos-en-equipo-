@@ -7,4 +7,5 @@ int main(){
 		scanf("%c",&car);
 		digito_leido=(('0'<=car))&&(('9'<=car));
 	}
+	
 }

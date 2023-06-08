@@ -1,0 +1,21 @@
+#include<stdio.h>
+#define MAX 25
+int main(){
+    int c,i,j;
+    for(c='A';c<='z';c++){
+        printf("%c",&c);
+    }
+    /*ejemplo 2*/
+    for(i='0';i>='0';c++){
+        printf("%c",&c);
+    }
+    /*ejemplo 3*/
+    for(i=1;i<100;i*=2){
+        printf("%d",i);
+    }
+    /*ejemplo 4*/
+    for(i=0,j=MAX;i<j;j++,j--){
+        printf("%d",(i+2*j));
+    }
+    
+}

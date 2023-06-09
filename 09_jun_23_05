@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	char car='a';
+	int z;
+	do{
+		printf("%s",car);
+		car++;
+	}while((car<=z));
+	
+}

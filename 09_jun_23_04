@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	char opcion;
+int s;
+do{
+	puts("hola");
+	puts("desea otro tipo de saludo");
+	printf("y acontinuacion pulse intro");
+	scanf("%s",&opcion);
+}while(opcion==s);
+	printf("adios\n");
+}

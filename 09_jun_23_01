@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+	int fila,blancos, cuent_as;
+	puts(" ");
+	for(;;)
+	printf("siempre asi, tellamanos\n ");
+	
+}

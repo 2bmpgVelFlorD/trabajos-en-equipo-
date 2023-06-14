@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int num,acum;
+	do{
+		printf("ingrese num\n");
+		scanf("%i",&num);
+		acum+=num;
+		
+	}while(num!=-1);
+	printf("la suma es %i\n",acum);
+	return 0;
+}

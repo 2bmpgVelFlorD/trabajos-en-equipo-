@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+	int numeros[10];
+	int suma=0;
+	int mayor=0;
+	int i=0;
+	printf("ingrese 10 numeros\n");
+	for(i=0;i<=10;i++){
+		scanf("%d",&numeros[i]);
+		suma+=numeros[i];
+		if(numeros[i]>mayor){
+			mayor=numeros[i];
+		}
+	}
+	printf("la suma es:%d\n",suma);
+	printf("numero mayor es %d\n",mayor);
+	return 0;
+}

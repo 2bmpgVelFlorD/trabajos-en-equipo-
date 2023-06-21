@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//Proyecto Final, Hecho por:Yahir Sanchez Morales
 #define MAX_PACIENTES 100
 #define MAX_MEDICAMENTOS 5
 
@@ -15,13 +15,13 @@ struct Paciente {
     char apellido_Paterno[50];
     char apellido_Materno[50];
     char sexo[10];
+    char fecha_de_Nacimiento[20];
     int edad;
-    char sintomas[100];
+    char estado_Civil[20];
+    char direccion[100];
     float peso;
     float talla;
-    char fecha_de_Nacimiento[20];
-    char direccion[100];
-    char estado_Civil[20];
+    char sintomas[100];
     int habitacion;
     int cama;
     struct Medicamento medicamentos[MAX_MEDICAMENTOS];
@@ -45,20 +45,20 @@ void registrarPaciente() {
     scanf("%s",&paciente.apellido_Materno);
     printf("Ingrese el sexo del paciente: ");
     scanf("%s",&paciente.sexo);
-    printf("Que sintomas presenta el paciente?: ");
-    scanf("%s",&paciente.sintomas);
-    printf("Ingrese el peso del paciente: ");
-    scanf("%f", &paciente.peso);
-    printf("Ingrese la talla del paciente: ");
-    scanf("%f", &paciente.talla);
     printf("Ingrese la fecha de nacimiento del paciente:");
     scanf("%s",&paciente.fecha_de_Nacimiento);
     printf("Ingrese la edad del paciente: ");
     scanf("%d", &paciente.edad);
-    printf("Ingrese la dirección del paciente: ");
-    scanf("%s", &paciente.direccion);
     printf("Cual es el estado civil del paciente?: ");
     scanf("%s",&paciente.estado_Civil);
+    printf("Ingrese la dirección del paciente: ");
+    scanf("%s", &paciente.direccion);
+    printf("Ingrese el peso del paciente: ");
+    scanf("%f", &paciente.peso);
+    printf("Ingrese la talla del paciente: ");
+    scanf("%f", &paciente.talla);
+    printf("Que sintomas presenta el paciente?: ");
+    scanf("%s",&paciente.sintomas);
     printf("No. de habitación del paciente: ");
     scanf("%d", &paciente.habitacion);
     printf("No. de cama del paciente: ");
@@ -87,18 +87,19 @@ void mostrarPacientes() {
     printf("Lista de pacientes:\n\n");
     for (int i = 0; i < numPacientes; i++) {
         struct Paciente paciente = pacientes[i];
+        printf("\n--- Datos del Paciente ---\n");
         printf("ID: %d\n", paciente.id);
         printf("Nombre: %s\n", paciente.nombre);
         printf("Apellido Paterno : %s\n",paciente.apellido_Paterno);
         printf("Apellido Materno : %s\n",paciente.apellido_Materno);
+        printf("Fecha de Nacimiento: %s\n",paciente.fecha_de_Nacimiento);
         printf("Sexo: %s\n",paciente.sexo);
         printf("Edad: %d\n", paciente.edad);
-        printf("Sintomas: %s\n",paciente.sintomas);
+        printf("Estado Civil: %s\n",paciente.estado_Civil);
+        printf("Dirección: %s\n", paciente.direccion);;
         printf("Peso: %.2fkg\n", paciente.peso);
         printf("Talla: %.2fcm\n", paciente.talla);
-        printf("Fecha de Nacimiento: %s\n",paciente.fecha_de_Nacimiento);
-        printf("Dirección: %s\n", paciente.direccion);
-        printf("Estado Civil: %s\n",paciente.estado_Civil);
+        printf("Sintomas: %s\n",paciente.sintomas);
         printf("No. de habitación: %d\n", paciente.habitacion);
         printf("No.de cama: %d\n", paciente.cama);
         printf("Medicamentos:\n");

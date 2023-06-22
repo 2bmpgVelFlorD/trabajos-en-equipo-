@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<string.h>
 int edad,sexo,diaentrada,fechanac,medicamento,hora,opc; 
-int datosid(){
+int datosid(){/*ddvvffpr21jun02311:31*/
 	char nom[30];
 	char med[30];
 	printf("ingrese datos basicos del paciente:\n");
@@ -24,7 +24,7 @@ int datosid(){
 	int altura;
 	scanf("%d\n",&altura);
 	printf("ingrese peso del paciente: \n");
-	int peso;
+	int peso;/*ddvvffpr21jun02311:31*/
 	scanf("%i\n",&peso);
 	printf("\n");
 	printf("\n");
@@ -104,7 +104,7 @@ int horario(){
 			printf("23:00-24:00  ");
 			printf("Cena\n");
 			break;
-		case 2:
+		case 2:/*ddvvffpr21jun02311:31*/
 			printf("paciente %i\n",x);
 			printf("6:00-7:30  ");
 			printf("desayuno.\n");
@@ -223,3 +223,4 @@ int main(){
  
 	return 0;
 }
+/*ddvvffpr21jun02311:31*/

@@ -4,7 +4,7 @@
 #include <ctype.h>//esta libreria convierte caracteres a minusculas (letra,digito)
 int main() {
       int csm = 0, pcr = 0, csf = 0, pct = 0;//contadores inicializados en cero
-    char ndp[200];float fdn,adp;char dir[200];//nombre del paciente,fecha de nacimiento,altura,y direccion
+    char ndp[200];float fdn,adp,idp;char dir[200];//nombre del paciente,fecha de nacimiento,altura,y direccion
     char sdp;//sexo del paciente
     int edp;//edad del paciente
     float pdp, tdp;//tdp=temperatura del paciente pdp=peso del paciente
@@ -53,6 +53,8 @@ int main() {
                 scanf("%f", &pdp);
                 printf("altura:(redondeada) ");
                 scanf("%f", &adp);
+                idp=pdp/adp*adp;
+                printf("IMC %.2f\n",idp);
                 printf("temperatura: ");
                 scanf("%f", &tdp);
                 printf("_____________________________________");
@@ -74,7 +76,7 @@ int main() {
                     printf("\nibuprofeno cada 6 horas\n");
                     printf("\n________________________\n");
                     pct++;//contador de pacientes con fiebre 
-                    printf("\ndesea registrar otro paciente: 0(no),1(si)");
+                    printf("\ndesea registrar otro paciente: 1(no),0(si)");
                     scanf("%i", &c);
                     system("cls");
                 } else {//en caso de no tener fiebre lee sus sintomas
@@ -95,7 +97,7 @@ int main() {
                         printf("\nVick Vaporub frotar en el pecho\n");
                         printf("\n________________________\n");
                         pcr++;//contador pacietes con resfriado
-                        printf("\ndesea registrar otro paciente: 0(no),1(si) ");
+                        printf("\ndesea registrar otro paciente: 1(no),0(si) ");
                         scanf("%i", &c);
                         system("cls");
                     } else {
@@ -109,9 +111,10 @@ int main() {
             printf("|sexo del paciente   |%c\n",sdp);
             printf("|edad del paciente   |%i \n", edp);
             printf("|peso del paciente   |%.2fkg\n",pdp);
-            printf("|altura del paciente |%.2f\n", adp);
+            printf("|altura del paciente |%.2fmetros\n", adp);
+            printf("|IMC                 |%.1f\n",idp);
             printf("|temperatura         | %.2f°\n",tdp);
-            printf("|fecha de nacimiento | %f\n",fdn);
+            printf("|fecha de nacimiento | %.1f\n",fdn);
             printf("|direccion           | %s\n", dir);
             printf("|____________________|\n");
 
@@ -130,11 +133,3 @@ int main() {
 
     return 0;
 }
-/*DESCRIPCION
-El código proporcionado es un programa en C que permite registrar pacientes en un hospital y asignarlos a diferentes cuartos según sus síntomas y temperatura corporal. También muestra el historial del hospital con respecto a la cantidad de pacientes por sexo, así como el número de pacientes con resfriado común y fiebre.
-
-El programa solicita la hora actual al usuario y verifica si está dentro del horario de atención del hospital. Luego, se solicitan los datos del paciente, como el nombre, sexo, edad, peso, altura, temperatura y dirección. A continuación, se verifica la temperatura del paciente y se asigna a un cuarto correspondiente con los medicamentos recomendados. Si la temperatura está dentro de un rango normal, se solicitan los síntomas del paciente y se asigna a otro cuarto según los síntomas especificados.
-
-Finalmente, el programa muestra el expediente del paciente y el historial del hospital. El programa se ejecuta hasta que el usuario decida salir.
-
-Recuerda compilar y ejecutar el código en un entorno de desarrollo C para ver los resultados.*/

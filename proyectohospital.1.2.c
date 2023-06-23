@@ -28,7 +28,7 @@ typedef struct {
 } Paciente;
 
 void limpiarPantalla() {
-#ifdef _WIN32
+#ifdef 
     system("cls");
 #else
     system("clear");
